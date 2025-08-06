@@ -1,0 +1,116 @@
+PHX Health Dimension Technical Specification
+
+PHX Label: Blood Pressure Control
+PHX FeatureId: CVR_02
+PHX Feature Type: Health Dimension
+PHX Description: patients with hypertension and controlled BP
+PHX Full Description: Percent of patient with hypertension with controlled BP
+Version: v1.0
+Created: 01/13/2025
+
+Source: CMS 
+Source Title: Controlling High Blood Pressure
+Source Reference Id: 
+Source Specification Link (if applicable): https://ecqi.healthit.gov/sites/default/files/ecqm/measures/CMS165v12.html
+Reference Value Sets:  CMS165v12
+
+Overview/rationale: See source specification link
+
+
+
+
+Essential Hypertension (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: essential_hypertension_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: essential_hypertension_01.txt
+
+Pregnancy (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: pregnancy_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: pregnancy_01.txt
+
+End Stage Renal Disease (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: end_stage_renal_disease_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: end_stage_renal_disease_01.txt
+
+Dialysis Services (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: dialysis_services_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: dialysis_services_01.txt
+
+Kidney Transplant (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: kidney_transplant_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: kidney_transplant_01.txt
+
+
+Advance Illness (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: advance_illness_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: advance_illness_01.txt
+
+Frailty (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: frailty_diagnosis_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: frailty_diagnosis_01.txt
+
+Hospice (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: hospice_diagnosis_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: hospice_diagnosis_01.txt
+
+Palliative Care (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: palliative_care_diagnosis_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: palliative_care_diagnosis_01.txt
+
+Dementia Medications (SNOMED/ICD10CM):
+      VSAC link: CMS165v12
+      Base Code Set: dementia_medications_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: dementia_medication_01.txt
+
+Acute Inpatient (SNOMED/CPT4):
+      VSAC link: CMS165v12
+      Base Code Set: acute_inpatient_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: acute_inpatient_01.txt
+
+Outpatient (SNOMED/CPT4):
+      VSAC link: CMS165v12
+      Base Code Set: outpatient_01_base.txt
+      Reference Code Set Source: CMS165v12
+Reference Code Set Vocabulary: SNOMED/ICD10CM
+Reference Code Set: outpatient_01.txt
+
+
+
+ETL SQL Script(s):  
+	MS SQL Server: 
+PHX Technical Documentation
+
+
+8
+
+
